@@ -1,4 +1,4 @@
-"""A setuptools based setup module.
+﻿"""A setuptools based setup module.
 
 See:
 https://packaging.python.org/en/latest/distributing.html
@@ -25,7 +25,7 @@ setup(
     # https://packaging.python.org/en/latest/single_source_version.html
     version='1.2.0',
 
-    description='A sample Python project',
+    description='A simple Python project',
     long_description=long_description,
 
     # The project's main homepage.

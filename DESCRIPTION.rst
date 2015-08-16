@@ -1,13 +1,12 @@
-A sample Python project
+A simple Python project
 =======================
 
-This is the description file for the project.
+The aims for this project are as follows:
 
-The file should use UTF-8 encoding and be written using ReStructured Text. It
-will be used to generate the project webpage on PyPI, and should be written for
-that purpose.
+(1) We create a very basic command line utility
 
-Typical contents for this file would include an overview of the project, basic
-usage examples, etc. Generally, including the project changelog in here is not
-a good idea, although a simple "What's New" section for the most recent version
-may be appropriate.
+(2) It should be structured as a 'package' with an __init__ file
+
+(3) It should have at least one dependency on a non-default Python package.
+
+(4) We want to get as far as creating a .whl file for it, which will automatically install the dependency.
