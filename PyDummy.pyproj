@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{e799553d-8e0d-4ff1-9b52-df54e52b939d}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>setup.py</StartupFile>
+    <StartupFile>cunt.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -14,6 +14,7 @@
     <InterpreterId>{f2abaade-6ad2-4834-abdf-e50da92aa7da}</InterpreterId>
     <InterpreterVersion>3.4</InterpreterVersion>
     <Name>PyDummy</Name>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
@@ -26,7 +27,18 @@
     <Content Include="README.rst" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="sample\__init__.py" />
+    <Compile Include="cunt.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sample\main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sample\pegger.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sample\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="setup.py" />
     <Compile Include="tests\test_simple.py" />
     <Compile Include="tests\__init__.py" />
