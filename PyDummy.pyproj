@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{e799553d-8e0d-4ff1-9b52-df54e52b939d}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>cunt.py</StartupFile>
+    <StartupFile>setup.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -24,13 +24,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="DESCRIPTION.rst" />
+    <Content Include="MANIFEST.in" />
     <Content Include="README.rst" />
+    <Content Include="setup.cfg" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="cunt.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="sample\main.py">
+    <Compile Include="sample\mainmod.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="sample\pegger.py">
